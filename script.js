@@ -34,7 +34,7 @@ if(name){
     }, 19000);
     
     setTimeout(() => {
-        document.querySelector('#para7').innerHTML = `Dear ${name}, kaise laga meri mazak...?🤣🤣🤣😂😂😂`;
+        document.querySelector('#para7').innerHTML = `Dear ${name}, kaisa laga meri mazak...?🤣🤣🤣😂😂😂`;
     }, 21000);
 } else {
     alert('Please enter your name.');
