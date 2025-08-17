@@ -10,7 +10,7 @@ if(name){
     }, 2500);
     
     setTimeout(() => {
-        document.querySelector('#para2').innerHTML = `We are fetching your all username and passwords in this device...Please wait...`;
+        document.querySelector('#para2').innerHTML = `We are fetching all your usernames and passwords in this device...Please wait...`;
     }, 4000);
     
     setTimeout(() => {
@@ -26,11 +26,11 @@ if(name){
     }, 12500);
     
     setTimeout(() => {
-        document.querySelector('#para5').innerHTML = 'Feching your WhatsApp chat...Please wait...';
+        document.querySelector('#para5').innerHTML = 'Feching your WhatsApp chats...Please wait...';
     }, 16000);
     
     setTimeout(() => {
-        document.querySelector('#para6').innerHTML = `Dear ${name}, Congratulations myself!!! We got everything which needed. Thanks for clicking this link...And one more step...Please wait...`;
+        document.querySelector('#para6').innerHTML = `Dear ${name}, Congratulations myself!!! We got everything we needed. Thanks for clicking this link...And one more step...Please wait...`;
     }, 19000);
     
     setTimeout(() => {
@@ -39,4 +39,5 @@ if(name){
 } else {
     alert('Please enter your name.');
 }
+
 
